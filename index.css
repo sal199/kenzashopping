@@ -1,0 +1,96 @@
+body{
+    
+    font-family: Helvetica;
+
+}
+
+
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+
+  }
+
+  .content {
+    color: #f1f1f1;
+    text-align: center;
+    margin-top: 20%;
+    word-spacing: 1%;
+    font-size: large;
+    font-weight: 600;
+    padding-left: 20%;
+    padding-right: 20%;
+
+  }
+
+  ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: auto;
+  }
+
+  a{
+    text-decoration: none;
+    color: #E68D22;
+    font-size: 22px;
+    float: left;
+  }
+
+  a:hover{
+    color: rgb(34,193,195);
+  }
+
+  span{
+    color: rgb(34,193,195);
+  }
+
+
+  @media screen and (max-width: 1010px){
+    .content{
+      margin-top: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+  }
+
+  @media screen and (max-width: 750px){
+    .content{
+      margin-top: 35%;
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .content{
+      margin-top: 50%;
+    padding-left: 3%;
+    padding-right: 3%;
+    }
+  }
+
+  @media screen and (max-width: 510px){
+    ul{
+      display: flex;
+      flex-direction: column;
+    }
+
+    li{
+      margin-bottom: 5%;
+    }
+  }
+
+  @media screen and (max-width: 420px){
+    .content{
+      margin-top: 65%;
+    }
+  }
